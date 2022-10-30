@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <title>Likes</title>
+</head>
+<body>
+    <nav>
+        <h1>Network</h1>
+    </nav>
+    <h2>Your Feed</h2>
+    <div class="flex">
+        <div class="profile"> 
+            <p>Picture Here</p>
+            <a>Add an Avatar</a>
+            <h3>James Doe</h3>
+        </div>
+        <div class="grid">
+            <div class="grid-item grid-item-1">
+                <div>
+                    <h4>Neil</h4>
+                    <p><a id="neil">9</a> like(s)</p>
+                    <button onclick="likesNeil()">Like</button>
+                </div>
+                <p>I just setup this new discord bot</p>
+            </div>
+            <div class="grid-item grid-item-2">
+                <div>
+                    <h4>Nichole</h4>
+                    <p><a id="nichole">12</a> like(s)</p>
+                    <button onclick="likesNichole()">Like</button>
+                </div>
+                <p>I just finished my next comic</p>
+            </div>
+            <div class="grid-item grid-item-3">
+                <div>
+                    <h4>Jim</h4>
+                    <p><a id="jim">9</a> like(s)</p>
+                    <button type="button" onclick="likesJim()">Like</button>
+                </div>
+                <p>I just can't stop listening to the new album</p>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
